@@ -1,0 +1,95 @@
+:root {
+    bg1: #fffafa;
+    bg2: #fffacd;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body {
+    background: linear-gradient(45deg, #aeff2c, #ff00ff);
+    height: 100vh;
+    display: grid;
+    place-content: center;
+}
+
+.bg {
+    width: 400px;
+    background: #fffafa;
+    height: 60vh;
+    padding: 20px 40px;;
+}
+.card {
+    position: relative;
+}
+.adobe:nth-child(3) {
+    position: relative;
+    left: 60%;
+}
+
+.logo {
+    text-align: right;
+    padding-bottom: 1.5em;
+    font-size: 25px;
+    color: #3cb371;
+}
+.sticker {
+    background: #fffacd;
+    display: inline;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+.adobe {
+    background: #fffacd;
+    width: 50px;
+    height: 50px;
+    display: grid;
+    place-content: center;
+    border-radius: 50%;
+}
+p {
+    color: #0f0f0f
+}
+.adobe p {
+    background: #000;
+    padding: 5px;
+    border-radius: .5em;
+    font-family: helvetica;
+    font-weight: 700;
+}
+.adobe:nth-child(1) {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.adobe:nth-child(2) {
+    margin-left: 15px;
+}
+.a {
+    color: #d2b48c;
+   
+}
+.p {
+    color: #6495ed;
+}
+.text {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-family: gill sans;
+}
+.i {
+    color: #fff;
+}
+.adobes {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    position: relative;
+}
+.txt {
+    font-size: 10px;
+    line-height: 1.5em;
+    font-family: tahoma;
+}
